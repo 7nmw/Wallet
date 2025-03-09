@@ -5,15 +5,19 @@
 
 POST api/v1/wallets/<WALLET_UUID>/operation
 
+```
 {
         "operationType": "DEPOSIT",
         "amount": 1000
 }
+```
 
+```
 {
         "operationType": "WITHDRAW",
         "amount": 1000
 }
+```
 
 после выполнять логику по изменению счета в базе данных
 
