@@ -45,7 +45,7 @@ git clone https://github.com/7nmw/Wallet_Rest_api.git
 docker-compose up -d
 ```
 
-Если вам нужен доступ к админке Django, создайте суперпользователя:
+Доступ к админке Django, создайте суперпользователя:
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
