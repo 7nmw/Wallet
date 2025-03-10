@@ -41,7 +41,7 @@ Postgresql
 ------
 
 ```
-git clone https://github.com/7nmw/Wallet_Rest_api.git
+git clone https://github.com/7nmw/Wallet.git
 docker-compose up -d
 ```
 
